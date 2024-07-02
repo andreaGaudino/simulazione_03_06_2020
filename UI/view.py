@@ -47,8 +47,8 @@ class View(ft.UserControl):
         self.txtDreamTeam = ft.ListView(expand=1)
 
         self._page.add(self.txtGrafo)
-        self._page.add(self.txtCompConn)
-        self._page.add(self.txtSimulazione)
+        self._page.add(self.txtTopPlayer)
+        self._page.add(self.txtDreamTeam)
         self._page.update()
     @property
     def controller(self):
