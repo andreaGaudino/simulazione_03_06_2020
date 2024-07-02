@@ -42,7 +42,7 @@ class View(ft.UserControl):
                        ft.Container(self.btnDreamTeam, width=300)], alignment=ft.MainAxisAlignment.CENTER)
         self._page.add(row3)
 
-        self.txtGrafo = ft.ListView(expand=1)
+        self.txtGrafo = ft.ListView()
         self.txtTopPlayer = ft.ListView(expand=1)
         self.txtDreamTeam = ft.ListView(expand=1)
 
